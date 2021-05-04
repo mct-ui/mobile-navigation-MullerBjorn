@@ -635,6 +635,15 @@ a:focus {
     }
 }
 
+.c-mobile-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100vh;
+}
+
+
 /*
     Component: Lead
     ---
