@@ -641,6 +641,7 @@ a:focus {
     right: 0;
     left: 0;
     height: 100vh;
+    display: none;
 }
 
 
