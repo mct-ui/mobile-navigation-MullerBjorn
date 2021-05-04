@@ -672,7 +672,6 @@ a:focus {
 
 .has-mobile-nav .c-mobile-nav__bg {
     opacity: 0.5;
-    transition: opacity .25s ease;
 }
 
 
@@ -697,7 +696,7 @@ a:focus {
 }
 
 .has-mobile-nav .c-page {
-    transition: transform (25%);
+    transform: translate(25%);
 }
 
 
