@@ -690,9 +690,16 @@ a:focus {
     transform: translate(0);
 }
 
+
 .c-page {
+    transform: translateX(0);
     transition: transform .25s ease;
 }
+
+.has-mobile-nav .c-page {
+    transition: transform (25%);
+}
+
 
 @media (min-width: 768px) {
     .c-mobile-nav__body {
